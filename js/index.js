@@ -1,5 +1,5 @@
 // Your code goes here
-const bigWords = document.querySelectorAll("img")
+const bigWords = document.querySelectorAll("a")
 
 Array.from(document.links).forEach(function(link) {
     link.addEventListener('click', function(event) {
